@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
-        var signIn :Boolean = false
+        var signIn = false
         val hyper: TextView = findViewById(R.id.hyper_link)
         val header: TextView = findViewById(R.id.head)
         val username: EditText = findViewById(R.id.username_edit_text)
@@ -39,6 +39,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-    fun onRadioButtonClicked(view: android.view.View) {}
 }
