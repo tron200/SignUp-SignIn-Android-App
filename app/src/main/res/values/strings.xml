@@ -10,4 +10,5 @@
     <string name="user_name">User Name</string>
     <string name="sign_in_insted">Already have account? Sign In</string>
     <string name="sign_up_insted">Don\'t have account? Sign Up</string>
+    <string name="back">Back</string>
 </resources>
